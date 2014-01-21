@@ -1,7 +1,9 @@
 # Downloadalytics
 A free PHP script for tracking file downloads in Google Analytics
 
-## Setup
+If you're not PHP/Apache-savvy, [**Van Patten Media**](http://www.vanpattenmedia.com/) can install the script for you, for $200 per standard installation. [Get in touch](http://www.vanpattenmedia.com/) to learn more.
+
+## Installation
 Downloadalytics requires some basic setup:
 
 1. Download the [Server Side Google Analytics](https://github.com/dancameron/server-side-google-analytics) class, and make sure to update the path in `download.php`
