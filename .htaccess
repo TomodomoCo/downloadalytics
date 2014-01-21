@@ -1,0 +1,10 @@
+# Downloadalytics
+#
+# Copyright (c) 2014 Van Patten Media Inc.
+#
+# Released under the terms of the MIT license.
+# Find the license here: http://opensource.org/licenses/MIT
+# or consult the included README file.
+
+RewriteEngine On
+RewriteRule ^download/(\d{4}/\d{2}/[A-Za-z0-9\-\_]+\.mp3)$ download.php?url=http://your-site.com/wp-content/uploads/$1
